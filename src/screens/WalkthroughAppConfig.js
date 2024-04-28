@@ -2,20 +2,19 @@ const WalkthroughAppConfig = {
   onboardingConfig: {
     walkthroughScreens: [
       {
-        icon: require("../assets/react-native.png"),
-        title: "React Native Walkthrough",
-        description: "Welcome your users with a beautiful app walkthrough.",
+        icon: require("../images/react-native.png"),
+        title: "Emotion Tagging",
+        description: "Help caregivers understand and interpret their child's emotions through image-based tagging.",
       },
       {
-        icon: require("../assets/educate.png"),
-        title: "Educate",
-        description:
-          "Showcase features to new users so that they get to love your app.",
+        icon: require("../images/educate.png"),
+        title: "Activity Tracking",
+        description: "Track daily routines and activities of children with autism to identify patterns and optimize support.",
       },
       {
-        icon: require("../assets/bell.png"),
-        title: "Get Notified",
-        description: "Describe the value proposition of each core feature.",
+        icon: require("../images/bell.png"),
+        title: "Personalized Support",
+        description: "Deliver personalized suggestions and resources based on emotional insights to assist caregivers in addressing challenges.",
       },
     ],
   },

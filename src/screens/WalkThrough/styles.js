@@ -33,6 +33,14 @@ const dynamicStyles = (appStyles, colorScheme) => {
       color: 'white',
       marginTop: 10,
     },
+    button2: {
+      marginTop: 20,
+      backgroundColor: '#fff',
+      textAlign: 'center',
+      paddingVertical: 12,
+      paddingHorizontal: 120,
+      borderRadius: 5,
+    },
   });
 };
 
