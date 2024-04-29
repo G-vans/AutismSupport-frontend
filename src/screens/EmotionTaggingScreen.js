@@ -9,13 +9,13 @@ const EmotionTaggingScreen = ({ navigation }) => {
       </Text>
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('UploadPhotoScreen')}
+        onPress={() => navigation.navigate('Upload Photo')}
       >
         <Text style={styles.buttonText}>Upload a Photo</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('DescribeEmotions')}
+        onPress={() => navigation.navigate('Describe Emotions')}
       >
         <Text style={styles.buttonText}>Describe Emotions</Text>
       </TouchableOpacity>

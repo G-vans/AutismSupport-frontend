@@ -18,7 +18,7 @@ const WelcomeScreen = ({ navigation }) => {
       {/* Buttons functions */}
       <View style={styles.buttonsContainer}>
         <TouchableOpacity style={styles.button}
-        onPress={() => navigation.navigate('EmotionTaggingScreen')}
+        onPress={() => navigation.navigate('Emotion Tagging')}
         >
           <Text style={styles.buttonText}>Emotion Taging</Text>
         </TouchableOpacity>

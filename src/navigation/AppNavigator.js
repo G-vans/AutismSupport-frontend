@@ -19,10 +19,10 @@ const AppNavigator = () => {
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="LoginScreen" component={LoginScreen} />
         <Stack.Screen name="WalkthroughScreen" component={WalkthroughScreen} />
-        <Stack.Screen name="WelcomeScreen" component={WelcomeScreen} />
-        <Stack.Screen name="EmotionTaggingScreen" component={EmotionTaggingScreen} />
-        <Stack.Screen name="UploadPhotoScreen" component={UploadPhotoScreen} />
-        <Stack.Screen name="DescribeEmotions" component={DescribeEmotionsScreen} />
+        <Stack.Screen name="Welcome" component={WelcomeScreen} />
+        <Stack.Screen name="Emotion Tagging" component={EmotionTaggingScreen} />
+        <Stack.Screen name="Upload Photo" component={UploadPhotoScreen} />
+        <Stack.Screen name="Describe Emotions" component={DescribeEmotionsScreen} />
         {/* <Stack.Screen name="SignUpForm" component={SignUpForm} /> */}
 
       </Stack.Navigator>
