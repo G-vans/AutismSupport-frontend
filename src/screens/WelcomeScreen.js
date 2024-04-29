@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
 
-const WelcomeScreen = () => {
+const WelcomeScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Image
@@ -17,7 +17,9 @@ const WelcomeScreen = () => {
 
       {/* Buttons functions */}
       <View style={styles.buttonsContainer}>
-        <TouchableOpacity style={styles.button}>
+        <TouchableOpacity style={styles.button}
+        onPress={() => navigation.navigate('EmotionTaggingScreen')}
+        >
           <Text style={styles.buttonText}>Emotion Taging</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.button}>
