@@ -14,7 +14,7 @@ const WalkthroughScreen = ({ appConfig, appStyles }) => {
   const styles = dynamicStyles(appStyles, colorScheme);
 
   const handleNavigateToLogin = () => {
-    navigation.navigate('Welcome');
+    navigation.navigate('Sign Up');
   };
 
   const slides = appConfig.onboardingConfig.walkthroughScreens.map(

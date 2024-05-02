@@ -8,7 +8,10 @@ import WelcomeScreen from '../screens/WelcomeScreen.js'
 import EmotionTaggingScreen from '../screens/EmotionTaggingScreen.js'
 import UploadPhotoScreen from '../screens/UploadPhotoScreen.js'
 import DescribeEmotionsScreen from '../screens/DescribeEmotionsScreen';
-// import SignUpForm from '../screens/SignUpForm';
+import SignUpForm from '../screens/SignUpForm';
+import LogBehaviorsScreen from '../screens/LogBehaviorsScreen';
+import BehaviorAnalysisScreen from '../screens/BehaviorAnalysisScreen';
+import InsightsScreen from '../screens/InsightsScreen';
 
 
 const Stack = createStackNavigator();
@@ -23,7 +26,12 @@ const AppNavigator = () => {
         <Stack.Screen name="Emotion Tagging" component={EmotionTaggingScreen} />
         <Stack.Screen name="Upload Photo" component={UploadPhotoScreen} />
         <Stack.Screen name="Describe Emotions" component={DescribeEmotionsScreen} />
-        {/* <Stack.Screen name="SignUpForm" component={SignUpForm} /> */}
+        <Stack.Screen name="Sign Up" component={SignUpForm} />
+        <Stack.Screen name="Log Behaviors" component={LogBehaviorsScreen} options={{ title: 'Log Behaviors Form' }} />
+        <Stack.Screen name="BehaviorAnalysis" component={BehaviorAnalysisScreen} options={{ title: 'Behavior Analysis', headerStyle: {
+            backgroundColor: '#6666ff',
+          }, }} />
+        <Stack.Screen name="Insights" component={InsightsScreen} options={{ title: 'Insights and Recommendations' }} />
 
       </Stack.Navigator>
   );

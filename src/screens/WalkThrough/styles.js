@@ -17,10 +17,9 @@ const dynamicStyles = (appStyles, colorScheme) => {
       paddingRight: 10,
     },
     image: {
-      width: 100,
-      height: 100,
+      width: 200,
+      height: 200,
       marginBottom: 60,
-      tintColor: 'white',
     },
     container: {
       flex: 1,
@@ -30,16 +29,17 @@ const dynamicStyles = (appStyles, colorScheme) => {
     },
     button: {
       fontSize: 18,
-      color: 'white',
+      color: '#6666ff',
       marginTop: 10,
     },
     button2: {
       marginTop: 20,
-      backgroundColor: '#fff',
+      backgroundColor: '#ff9999',
       textAlign: 'center',
       paddingVertical: 12,
       paddingHorizontal: 120,
       borderRadius: 5,
+      color: '#6666ff',
     },
   });
 };
