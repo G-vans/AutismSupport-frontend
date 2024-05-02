@@ -19,7 +19,7 @@ const Stack = createStackNavigator();
 const AppNavigator = () => {
   return (
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Home" component={HomeScreen} options={{ title: 'Autism Support' }} />
         <Stack.Screen name="LoginScreen" component={LoginScreen} />
         <Stack.Screen name="WalkthroughScreen" component={WalkthroughScreen} />
         <Stack.Screen name="Welcome" component={WelcomeScreen} />
