@@ -11,7 +11,7 @@ const EmotionTaggingScreen = ({ navigation }) => {
         style={styles.button}
         onPress={() => navigation.navigate('Upload Photo')}
       >
-        <Text style={styles.buttonText}>Upload a Photo</Text>
+        <Text style={styles.buttonText}>Connect Wearable</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.button}
